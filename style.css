@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+
+    --fontf-but: 'DM Sans', sans-serif;
+    --fontf-ul-h1: 'Mulish', sans-serif;
+    --fontf-body: 'Open Sans', sans-serif;
+    --background: linear-gradient(180deg, rgba(227, 255, 248, 0) 82.08%, rgba(227, 255, 248, 0.38) 100%);    
+
+}
+
+body {
+    background-color: var(--background);
+    font-family: var(--fontf-body);
+    width: 128.0rem;
+    height: 100%;
+    margin: auto;  
+}
+
+header {
+    width: 100.5rem;    
+    height: 2.3rem; 
+    margin: 6.5rem 15.2rem 5.8rem 12.3rem;
+    display: flex;
+    justify-content: space-between;  
+    align-items: center;  
+}
+
+ul {
+    font-family: var(--fontf-ul);
+    font-size: 1.8rem;
+    line-height: 2.3rem;
+    display: flex;
+    gap: 4.8rem;  
+    list-style: none;
+    padding: 0;
+    opacity: 0.5;
+}
+
+ul li:hover {
+    font-weight: bold;
+    color: #1F1534;
+}
+
+main {
+    width: 100.8rem;
+    height: 43.3364rem;
+    margin: 0 15.3rem 0 11.9rem;
+    gap: 10.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section {
+    width: 48.9rem;
+    height: 33.2rem;
+    text-align: left;
+}
+
+h1 {
+    font-family: var(--fontf-ul);
+    font-size: 4.9rem;
+    line-height: 5.6rem;
+    font-weight: 400;
+    color: #1f1534;
+}
+
+h1 span{
+    color: #89c5cc;
+    font-weight: bold;
+}
+
+section p { 
+    width: 43.8rem;
+    height: 8.4rem;
+    font-family: var(--fontf-body);
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 2.8rem;
+    color: #7d7987;   
+    margin: 4.0rem 0;
+}
+
+button { 
+    width: 17.9rem;
+    height: 5.6rem;
+    padding: 1.4rem 3.2rem 1.5rem;
+    gap: 1.0rem;
+    
+    font-family: var(--fontf-but);
+    color: white;
+    display: flex;
+    align-items: center;  
+
+    background: #69B99D;
+    border-radius: .4rem;
+    border: none;
+
+    cursor: pointer;
+    }
+ 
+button:hover {
+    background-color: #a4dac8;    
+}
+
+footer {
+
+    height: 2.8rem;
+    display: flex;
+    text-align: center;
+    font-family: var(--fontf-body);
+    font-size: 1.4rem;
+    line-height: 2.8rem;    
+}
+
+footer p {
+    margin: 0 auto
+
+}
+
+footer a {
+    font-weight: bold;
+    color: #1f1534;
+}
+
+#balls {
+position: fixed;
+bottom: 0;
+right: 0;
+}
